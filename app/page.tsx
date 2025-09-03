@@ -149,6 +149,81 @@ export default function BullsTechConsulting() {
           </div>
         </div>
       </section>
+       <section className="py-16">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl font-bold text-foreground mb-4">Why Choose Bulls Tech Consulting</h2>
+            <p className="text-lg text-muted-foreground max-w-2xl mx-auto text-pretty">
+              Partner with us for reliable, innovative, and tailored ICT solutions that drive your business forward
+            </p>
+          </div>
+
+          <div className="mb-12">
+            {/* <div className="grid md:grid-cols-2 gap-8">
+              <div className="text-center">
+                <img
+                  src="/satisfied-business-client-using-bulls-tech-softwar.png"
+                  alt="Client Success Story"
+                  className="rounded-lg shadow-md mx-auto mb-4 max-w-full h-auto"
+                />
+                <h3 className="font-semibold text-foreground mb-2">Client Success</h3>
+                <p className="text-muted-foreground text-sm">Real results from our implementations</p>
+              </div>
+              <div className="text-center">
+                <img
+                  src="/bulls-tech-support-team-providing-technical-assist.png"
+                  alt="Technical Support Team"
+                  className="rounded-lg shadow-md mx-auto mb-4 max-w-full h-auto"
+                />
+                <h3 className="font-semibold text-foreground mb-2">Expert Support</h3>
+                <p className="text-muted-foreground text-sm">Dedicated technical assistance</p>
+              </div>
+            </div> */}
+          </div>
+
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+            <div className="text-center">
+              <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                <CheckCircle className="h-8 w-8 text-blue-600" />
+              </div>
+              <h3 className="font-semibold text-foreground mb-2">Proven Expertise</h3>
+              <p className="text-muted-foreground text-sm">
+                Years of experience delivering successful ICT solutions across multiple industries
+              </p>
+            </div>
+
+            <div className="text-center">
+              <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                <Users className="h-8 w-8 text-blue-600" />
+              </div>
+              <h3 className="font-semibold text-foreground mb-2">24/7 Support</h3>
+              <p className="text-muted-foreground text-sm">
+                Round-the-clock technical support and maintenance to keep your systems running smoothly
+              </p>
+            </div>
+
+            <div className="text-center">
+              <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                <Star className="h-8 w-8 text-blue-600" />
+              </div>
+              <h3 className="font-semibold text-foreground mb-2">Tailored Solutions</h3>
+              <p className="text-muted-foreground text-sm">
+                Customized implementations that fit your specific business requirements and workflows
+              </p>
+            </div>
+
+            <div className="text-center">
+              <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                <Shield className="h-8 w-8 text-blue-600" />
+              </div>
+              <h3 className="font-semibold text-foreground mb-2">Reliable Technology</h3>
+              <p className="text-muted-foreground text-sm">
+                Enterprise-grade solutions built for stability, security, and long-term performance
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
 
       {/* Services Overview */}
       <section id="services" className="py-16">
@@ -412,7 +487,7 @@ export default function BullsTechConsulting() {
                   enterprise-grade functionality. Our SaaS offerings include CRM systems, project management tools, and
                   custom business applications.
                 </p>
-                <div className="space-y-4 mb-6">
+                {/* <div className="space-y-4 mb-6">
                   <div>
                     <h4 className="font-semibold text-foreground mb-2">Key Features:</h4>
                     <ul className="text-muted-foreground space-y-1">
@@ -432,7 +507,7 @@ export default function BullsTechConsulting() {
                       <li>• Pay-as-you-scale pricing model</li>
                     </ul>
                   </div>
-                </div>
+                </div> */}
                 <div className="flex flex-wrap gap-2 mb-6">
                   <Badge variant="secondary" className="bg-blue-100 text-blue-700">
                     Cloud-Based
@@ -451,7 +526,7 @@ export default function BullsTechConsulting() {
               </div>
               <div>
                 <img
-                  src="/modern-cloud-computing-dashboard-with-saas-applica.png"
+                  src="/saas.jpg"
                   alt="SaaS Software Solutions Dashboard"
                   className="rounded-lg shadow-lg w-full h-auto"
                 />
@@ -467,7 +542,7 @@ export default function BullsTechConsulting() {
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div>
                 <img
-                  src="/modern-accounting-office-with-financial-software-di.png"
+                  src="116266.jpg"
                   alt="Accounting Systems Implementation"
                   className="rounded-lg shadow-lg w-full h-auto"
                 />
@@ -482,7 +557,7 @@ export default function BullsTechConsulting() {
                   complete setup, customization, and training for financial management systems that ensure compliance
                   and streamline your accounting processes.
                 </p>
-                <div className="space-y-4 mb-6">
+                {/* <div className="space-y-4 mb-6">
                   <div>
                     <h4 className="font-semibold text-foreground mb-2">Palladium Accounting:</h4>
                     <ul className="text-muted-foreground space-y-1">
@@ -503,7 +578,7 @@ export default function BullsTechConsulting() {
                       <li>• Custom financial reports</li>
                     </ul>
                   </div>
-                </div>
+                </div> */}
                 <div className="flex flex-wrap gap-2 mb-6">
                   <Badge variant="secondary" className="bg-blue-100 text-blue-700">
                     Palladium
@@ -539,7 +614,7 @@ export default function BullsTechConsulting() {
                   management, sales tracking, customer management, and reporting. Perfect for retail stores,
                   restaurants, and service businesses.
                 </p>
-                <div className="space-y-4 mb-6">
+                {/* <div className="space-y-4 mb-6">
                   <div>
                     <h4 className="font-semibold text-foreground mb-2">4POS System Features:</h4>
                     <ul className="text-muted-foreground space-y-1">
@@ -560,7 +635,7 @@ export default function BullsTechConsulting() {
                       <li>• Mobile app for remote management</li>
                     </ul>
                   </div>
-                </div>
+                </div> */}
                 <div className="flex flex-wrap gap-2 mb-6">
                   <Badge variant="secondary" className="bg-blue-100 text-blue-700">
                     4POS
@@ -579,7 +654,7 @@ export default function BullsTechConsulting() {
               </div>
               <div>
                 <img
-                  src="/modern-pos-system-with-touchscreen-display-in-reta.png"
+                  src="/76097.jpg"
                   alt="POS System Implementation"
                   className="rounded-lg shadow-lg w-full h-auto"
                 />
@@ -595,7 +670,7 @@ export default function BullsTechConsulting() {
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div>
                 <img
-                  src="/vehicle-tracking-dashboard-showing-gps-locations-a.png"
+                  src="/98094.jpg"
                   alt="Vehicle Tracking System Dashboard"
                   className="rounded-lg shadow-lg w-full h-auto"
                 />
@@ -610,7 +685,7 @@ export default function BullsTechConsulting() {
                   Real-time GPS tracking, route optimization, fuel monitoring, and detailed reporting help reduce costs
                   and improve operational efficiency.
                 </p>
-                <div className="space-y-4 mb-6">
+                {/* <div className="space-y-4 mb-6">
                   <div>
                     <h4 className="font-semibold text-foreground mb-2">Tracking Hardware:</h4>
                     <ul className="text-muted-foreground space-y-1">
@@ -631,7 +706,7 @@ export default function BullsTechConsulting() {
                       <li>• Custom reporting and analytics</li>
                     </ul>
                   </div>
-                </div>
+                </div> */}
                 <div className="flex flex-wrap gap-2 mb-6">
                   <Badge variant="secondary" className="bg-blue-100 text-blue-700">
                     GPS Tracking
@@ -667,7 +742,7 @@ export default function BullsTechConsulting() {
                   cameras, digital video recorders, remote monitoring capabilities, and complete installation services
                   for businesses and residential properties.
                 </p>
-                <div className="space-y-4 mb-6">
+                {/* <div className="space-y-4 mb-6">
                   <div>
                     <h4 className="font-semibold text-foreground mb-2">Camera Options:</h4>
                     <ul className="text-muted-foreground space-y-1">
@@ -689,7 +764,7 @@ export default function BullsTechConsulting() {
                       <li>• 24/7 monitoring service options</li>
                     </ul>
                   </div>
-                </div>
+                </div> */}
                 <div className="flex flex-wrap gap-2 mb-6">
                   <Badge variant="secondary" className="bg-blue-100 text-blue-700">
                     HD Cameras
@@ -739,7 +814,7 @@ export default function BullsTechConsulting() {
                   training, system optimization consulting, and ongoing support to ensure your team maximizes the value
                   of your technology investments.
                 </p>
-                <div className="space-y-4 mb-6">
+                {/* <div className="space-y-4 mb-6">
                   <div>
                     <h4 className="font-semibold text-foreground mb-2">Training Programs:</h4>
                     <ul className="text-muted-foreground space-y-1">
@@ -760,7 +835,7 @@ export default function BullsTechConsulting() {
                       <li>• ROI analysis and reporting</li>
                     </ul>
                   </div>
-                </div>
+                </div> */}
                 <div className="flex flex-wrap gap-2 mb-6">
                   <Badge variant="secondary" className="bg-blue-100 text-blue-700">
                     ERP Training
@@ -793,7 +868,7 @@ export default function BullsTechConsulting() {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 gap-8 mb-12">
+          {/* <div className="grid md:grid-cols-2 gap-8 mb-12">
             <div className="text-center">
               <img
                 src="/modern-retail-store-with-pos-systems-and-inventory.png"
@@ -812,7 +887,7 @@ export default function BullsTechConsulting() {
               <h3 className="font-semibold text-foreground mb-2">Logistics & Transportation</h3>
               <p className="text-muted-foreground text-sm">Advanced fleet and cargo tracking systems</p>
             </div>
-          </div>
+          </div> */}
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
             <Card className="text-center hover:shadow-lg hover:border-blue-200 transition-all duration-300">
@@ -879,81 +954,7 @@ export default function BullsTechConsulting() {
       </section>
 
       {/* Why Choose Us */}
-      <section className="py-16">
-        <div className="container mx-auto px-4">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-foreground mb-4">Why Choose Bulls Tech Consulting</h2>
-            <p className="text-lg text-muted-foreground max-w-2xl mx-auto text-pretty">
-              Partner with us for reliable, innovative, and tailored ICT solutions that drive your business forward
-            </p>
-          </div>
-
-          <div className="mb-12">
-            <div className="grid md:grid-cols-2 gap-8">
-              <div className="text-center">
-                <img
-                  src="/satisfied-business-client-using-bulls-tech-softwar.png"
-                  alt="Client Success Story"
-                  className="rounded-lg shadow-md mx-auto mb-4 max-w-full h-auto"
-                />
-                <h3 className="font-semibold text-foreground mb-2">Client Success</h3>
-                <p className="text-muted-foreground text-sm">Real results from our implementations</p>
-              </div>
-              <div className="text-center">
-                <img
-                  src="/bulls-tech-support-team-providing-technical-assist.png"
-                  alt="Technical Support Team"
-                  className="rounded-lg shadow-md mx-auto mb-4 max-w-full h-auto"
-                />
-                <h3 className="font-semibold text-foreground mb-2">Expert Support</h3>
-                <p className="text-muted-foreground text-sm">Dedicated technical assistance</p>
-              </div>
-            </div>
-          </div>
-
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-            <div className="text-center">
-              <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <CheckCircle className="h-8 w-8 text-blue-600" />
-              </div>
-              <h3 className="font-semibold text-foreground mb-2">Proven Expertise</h3>
-              <p className="text-muted-foreground text-sm">
-                Years of experience delivering successful ICT solutions across multiple industries
-              </p>
-            </div>
-
-            <div className="text-center">
-              <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Users className="h-8 w-8 text-blue-600" />
-              </div>
-              <h3 className="font-semibold text-foreground mb-2">24/7 Support</h3>
-              <p className="text-muted-foreground text-sm">
-                Round-the-clock technical support and maintenance to keep your systems running smoothly
-              </p>
-            </div>
-
-            <div className="text-center">
-              <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Star className="h-8 w-8 text-blue-600" />
-              </div>
-              <h3 className="font-semibold text-foreground mb-2">Tailored Solutions</h3>
-              <p className="text-muted-foreground text-sm">
-                Customized implementations that fit your specific business requirements and workflows
-              </p>
-            </div>
-
-            <div className="text-center">
-              <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Shield className="h-8 w-8 text-blue-600" />
-              </div>
-              <h3 className="font-semibold text-foreground mb-2">Reliable Technology</h3>
-              <p className="text-muted-foreground text-sm">
-                Enterprise-grade solutions built for stability, security, and long-term performance
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
+     
 
       {/* Contact Section */}
       <section id="contact" className="py-16 bg-blue-50/50">
