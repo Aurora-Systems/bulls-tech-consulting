@@ -546,10 +546,11 @@ export default function BullsTechConsulting() {
                     Cost-Effective
                   </Badge>
                 </div>
-                <Button className="bg-blue-500 hover:bg-blue-600 text-white">
+                <Link href="https://wa.me/263772807970?text=I want to learn more about SaaS" target="_blank" ><Button className="bg-blue-500 hover:bg-blue-600 text-white">
                   Learn More About SaaS
                   <ArrowRight className="ml-2 h-4 w-4" />
                 </Button>
+                </Link>
               </div>
               <div>
                 <img
@@ -569,7 +570,7 @@ export default function BullsTechConsulting() {
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div>
                 <img
-                  src="https://bullstechconsulting.sirv.com116266.jpg"
+                  src="https://bullstechconsulting.sirv.com/116266.jpg"
                   alt="Accounting Systems Implementation"
                   className="rounded-lg shadow-lg w-full h-auto"
                 />
@@ -617,10 +618,10 @@ export default function BullsTechConsulting() {
                     Compliance
                   </Badge>
                 </div>
-                <Button className="bg-blue-500 hover:bg-blue-600 text-white">
+                <Link href="https://wa.me/263772807970?text=I want to explore accounting solutions" target="_blank" ><Button className="bg-blue-500 hover:bg-blue-600 text-white">
                   Explore Accounting Solutions
                   <ArrowRight className="ml-2 h-4 w-4" />
-                </Button>
+                </Button></Link>
               </div>
             </div>
           </div>
@@ -674,10 +675,10 @@ export default function BullsTechConsulting() {
                     Inventory
                   </Badge>
                 </div>
-                <Button className="bg-blue-500 hover:bg-blue-600 text-white">
+                <Link href="https://wa.me/263772807970?text=I want to discover pos solutions" target="_blank" ><Button className="bg-blue-500 hover:bg-blue-600 text-white">
                   Discover POS Solutions
                   <ArrowRight className="ml-2 h-4 w-4" />
-                </Button>
+                </Button></Link>
               </div>
               <div>
                 <img
@@ -745,10 +746,10 @@ export default function BullsTechConsulting() {
                     Route Optimization
                   </Badge>
                 </div>
-                <Button className="bg-blue-500 hover:bg-blue-600 text-white">
+                <Link href="https://wa.me/263772807970?text=I want to view tracking solutions" target="_blank" ><Button className="bg-blue-500 hover:bg-blue-600 text-white">
                   View Tracking Solutions
                   <ArrowRight className="ml-2 h-4 w-4" />
-                </Button>
+                </Button></Link>
               </div>
             </div>
           </div>
@@ -803,10 +804,10 @@ export default function BullsTechConsulting() {
                     Installation
                   </Badge>
                 </div>
-                <Button className="bg-blue-500 hover:bg-blue-600 text-white">
+                <Link href="https://wa.me/263772807970?text=I want to explore cctv systems" target="_blank" ><Button className="bg-blue-500 hover:bg-blue-600 text-white">
                   Explore CCTV Systems
                   <ArrowRight className="ml-2 h-4 w-4" />
-                </Button>
+                </Button></Link>
               </div>
               <div>
                 <img
@@ -874,10 +875,10 @@ export default function BullsTechConsulting() {
                     Consultation
                   </Badge>
                 </div>
-                <Button className="bg-blue-500 hover:bg-blue-600 text-white">
+                <Link href="https://wa.me/263772807970?text=I want to schedule training" target="_blank" ><Button className="bg-blue-500 hover:bg-blue-600 text-white">
                   Schedule Training
                   <ArrowRight className="ml-2 h-4 w-4" />
-                </Button>
+                </Button></Link>
               </div>
             </div>
           </div>
