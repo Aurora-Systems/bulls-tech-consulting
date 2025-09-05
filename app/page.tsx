@@ -1,3 +1,4 @@
+"use client"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Input } from "@/components/ui/input"
@@ -23,8 +24,34 @@ import {
 } from "lucide-react"
 import Image from "next/image"
 import Link from "next/link"
+import emailjs from "@emailjs/browser"
+import { useState, useRef, FormEvent } from "react"
 
 export default function BullsTechConsulting() {
+  const [loading,set_loading] = useState<boolean>(false)
+  const form:any = useRef(null)
+
+  const handle_submit=(e:FormEvent)=>{
+    e.preventDefault()
+    set_loading(true)
+    emailjs
+      .sendForm('service_wsqvpwd', 'template_q527mib', form.current, {
+        publicKey: 'o-9sRwXQ8HzbW2lOZ',
+      })
+      .then(
+        () => {
+          alert("✅ We received your message!");
+          form?.current?.reset()
+        },
+        (error) => {
+          alert("⚠️ We failed to send your message, please try again!")
+        },
+      ).finally(()=>{
+        set_loading(false)
+      })
+  };
+
+  
   return (
     <div className="min-h-screen bg-background">
       {/* Header */}
@@ -974,36 +1001,37 @@ export default function BullsTechConsulting() {
                 <CardDescription>We'll get back to you within 24 hours</CardDescription>
               </CardHeader>
               <CardContent>
-                <form className="space-y-4">
-                  <div className="grid md:grid-cols-2 gap-4">
+                <form className="space-y-4" ref={form} onSubmit={handle_submit}>
+                 
                     <div>
-                      <label className="text-sm font-medium text-foreground mb-2 block">First Name</label>
-                      <Input placeholder="John" />
+                      <label className="text-sm font-medium text-foreground mb-2 block">Full Name</label>
+                      <Input type="text" placeholder="John" name="full_name" required/>
                     </div>
-                    <div>
-                      <label className="text-sm font-medium text-foreground mb-2 block">Last Name</label>
-                      <Input placeholder="Doe" />
-                    </div>
-                  </div>
                   <div>
                     <label className="text-sm font-medium text-foreground mb-2 block">Email</label>
-                    <Input type="email" placeholder="john@company.com" />
+                    <Input type="email" placeholder="john@company.com" name="email" required />
                   </div>
                   <div>
-                    <label className="text-sm font-medium text-foreground mb-2 block">Company</label>
-                    <Input placeholder="Your Company Name" />
+                    <label className="text-sm font-medium text-foreground mb-2 block">Contact Number</label>
+                    <Input type="tel" placeholder="+263*********" name="contact_number" required />
                   </div>
                   <div>
                     <label className="text-sm font-medium text-foreground mb-2 block">Service Interest</label>
-                    <Input placeholder="e.g., POS System, Vehicle Tracking" />
+                    <Input placeholder="e.g., POS System, Vehicle Tracking" name="service" required/>
                   </div>
                   <div>
                     <label className="text-sm font-medium text-foreground mb-2 block">Message</label>
-                    <Textarea placeholder="Tell us about your requirements..." rows={4} />
+                    <Textarea placeholder="Tell us about your requirements..." rows={4} name="message" required/>
                   </div>
-                  <Button className="w-full bg-blue-500 hover:bg-blue-600 text-white">
+                  <Button type="submit" disabled={loading} className="w-full bg-blue-500 hover:bg-blue-600 text-white">
+                    {loading?
+                    <>Sending...</>
+                    :
+                    <>
                     Send Message
                     <ArrowRight className="ml-2 h-4 w-4" />
+                    </>
+                    }
                   </Button>
                 </form>
               </CardContent>
@@ -1011,13 +1039,7 @@ export default function BullsTechConsulting() {
 
             {/* Contact Information */}
             <div className="space-y-8">
-              <div className="mb-6">
-                <img
-                  src="/bulls-tech-consulting-office-building-exterior-wit.png"
-                  alt="Bulls Tech Consulting Office"
-                  className="rounded-lg shadow-md w-full h-auto"
-                />
-              </div>
+             
 
               <Card className="border-blue-100">
                 <CardContent className="pt-6">
