@@ -22,10 +22,10 @@ import {
   Star,
   ArrowRight,
 } from "lucide-react"
-import Image from "next/image"
 import Link from "next/link"
 import emailjs from "@emailjs/browser"
 import { useState, useRef, FormEvent } from "react"
+import {FloatingWhatsApp} from "react-floating-whatsapp"
 
 export default function BullsTechConsulting() {
   const [loading,set_loading] = useState<boolean>(false)
@@ -1171,6 +1171,11 @@ export default function BullsTechConsulting() {
           </div>
         </div>
       </footer>
+      <FloatingWhatsApp
+        accountName="Bulls Tech Consulting"
+        phoneNumber="+263772807970"
+        avatar="https://bullstechconsulting.sirv.com/logo.png"
+      />
     </div>
   )
 }
