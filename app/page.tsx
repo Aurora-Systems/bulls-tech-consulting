@@ -1166,8 +1166,8 @@ export default function BullsTechConsulting() {
 
           <div className=" text-center">
             <p className="text-background/80 text-sm">© 2024 Bulls Tech Consulting. All rights reserved.</p>
-            <br/>
-            <small>Made By <a href="https://aurorasystems.co.zw" target="_blank">Aurora</a></small>
+            {/* <br/>
+            <small>Made By <a href="https://aurorasystems.co.zw" target="_blank">Aurora</a></small> */}
           </div>
         </div>
       </footer>
