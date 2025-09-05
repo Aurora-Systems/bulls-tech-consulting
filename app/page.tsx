@@ -569,7 +569,7 @@ export default function BullsTechConsulting() {
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div>
                 <img
-                  src="116266.jpg"
+                  src="https://bullstechconsulting.sirv.com116266.jpg"
                   alt="Accounting Systems Implementation"
                   className="rounded-lg shadow-lg w-full h-auto"
                 />
