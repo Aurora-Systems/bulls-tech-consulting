@@ -57,7 +57,7 @@ export default function BullsTechConsulting() {
       {/* Header */}
       <header className="sticky top-0 z-50 bg-primary/95 backdrop-blur supports-[backdrop-filter]:bg-primary/60 border-b border-border">
         <div className="container mx-auto px-4 py-4">
-          <nav className="flex items-center justify-center:sm justify-between ">
+          <nav className="flex items-center justify-center md:justify-between ">
             <div className="flex items-center space-x-2">
               <div className=" rounded-lg flex items-center justify-center text-center">
                 <img src="https://bullstechconsulting.sirv.com/logo.png" width="200" height="200" alt="Bulls Tech Consulting"/>
