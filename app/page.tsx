@@ -57,10 +57,10 @@ export default function BullsTechConsulting() {
       {/* Header */}
       <header className="sticky top-0 z-50 bg-primary/95 backdrop-blur supports-[backdrop-filter]:bg-primary/60 border-b border-border">
         <div className="container mx-auto px-4 py-4">
-          <nav className="flex items-center justify-between">
+          <nav className="flex items-center justify-center:sm justify-between ">
             <div className="flex items-center space-x-2">
-              <div className=" rounded-lg flex items-center justify-center">
-                <img src="logo.png" width="200" height="200" alt="Bulls Tech Consulting"/>
+              <div className=" rounded-lg flex items-center justify-center text-center">
+                <img src="https://bullstechconsulting.sirv.com/logo.png" width="200" height="200" alt="Bulls Tech Consulting"/>
               </div>
              
             </div>
@@ -87,7 +87,7 @@ export default function BullsTechConsulting() {
       <section
         className="py-20 bg-gradient-to-b from-blue-50 to-background relative"
         style={{
-          backgroundImage: "url('/114073.jpg')",
+          backgroundImage: "url('https://bullstechconsulting.sirv.com/114073.jpg')",
           backgroundSize: "cover",
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
@@ -139,7 +139,7 @@ export default function BullsTechConsulting() {
               </div>
               <div>
                 <img
-                  src="/119962.jpg"
+                  src="https://bullstechconsulting.sirv.com/119962.jpg"
                   alt="Bulls Tech Consulting professional team"
                   className="rounded-lg shadow-md w-full h-auto"
                 />
@@ -265,7 +265,7 @@ export default function BullsTechConsulting() {
           <div className="grid md:grid-cols-3 gap-6 mb-12">
             <div className="text-center">
               <img
-                src="/14801.jpg"
+                src="https://bullstechconsulting.sirv.com/14801.jpg"
                 alt="Accounting Systems Implementation"
                   height={200}
                 className="rounded-lg shadow-md mx-auto mb-4 max-w-full h-auto"
@@ -274,7 +274,7 @@ export default function BullsTechConsulting() {
             </div>
             <div className="text-center">
               <img
-                src="/3440.jpg"
+                src="https://bullstechconsulting.sirv.com/3440.jpg"
                 alt="POS System Implementation"
                                 height={200}
 
@@ -284,7 +284,7 @@ export default function BullsTechConsulting() {
             </div>
             <div className="text-center">
               <img
-                src="/98192.jpg"
+                src="https://bullstechconsulting.sirv.com/98192.jpg"
                 alt="Vehicle Tracking System"
                 height={200}
                 className="rounded-lg shadow-md mx-auto mb-4 max-w-full h-auto"
@@ -553,7 +553,7 @@ export default function BullsTechConsulting() {
               </div>
               <div>
                 <img
-                  src="/saas.jpg"
+                  src="https://bullstechconsulting.sirv.com/saas.jpg"
                   alt="SaaS Software Solutions Dashboard"
                   className="rounded-lg shadow-lg w-full h-auto"
                 />
@@ -681,7 +681,7 @@ export default function BullsTechConsulting() {
               </div>
               <div>
                 <img
-                  src="/76097.jpg"
+                  src="https://bullstechconsulting.sirv.com/76097.jpg"
                   alt="POS System Implementation"
                   className="rounded-lg shadow-lg w-full h-auto"
                 />
@@ -697,7 +697,7 @@ export default function BullsTechConsulting() {
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div>
                 <img
-                  src="/98094.jpg"
+                  src="https://bullstechconsulting.sirv.com/98094.jpg"
                   alt="Vehicle Tracking System Dashboard"
                   className="rounded-lg shadow-lg w-full h-auto"
                 />
@@ -810,7 +810,7 @@ export default function BullsTechConsulting() {
               </div>
               <div>
                 <img
-                  src="/89017.jpg"
+                  src="https://bullstechconsulting.sirv.com/89017.jpg"
                   alt="CCTV Security Camera System"
                   className="rounded-lg shadow-lg w-full h-auto"
                 />
@@ -826,7 +826,7 @@ export default function BullsTechConsulting() {
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div>
                 <img
-                  src="/37174.jpg"
+                  src="https://bullstechconsulting.sirv.com/37174.jpg"
                   alt="ERP Training Session"
                   className="rounded-lg shadow-lg w-full h-auto"
                 />
@@ -1049,8 +1049,8 @@ export default function BullsTechConsulting() {
                     </div>
                     <div>
                       <h3 className="font-semibold text-foreground mb-1">Phone</h3>
-                      <p className="text-muted-foreground">+1 (555) 123-4567</p>
-                      <p className="text-muted-foreground">+1 (555) 987-6543</p>
+                      <p className="text-muted-foreground">+263 77 280 7970 </p>
+                      <p className="text-muted-foreground">+263 71 617 6950</p>
                     </div>
                   </div>
                 </CardContent>
@@ -1065,13 +1065,13 @@ export default function BullsTechConsulting() {
                     <div>
                       <h3 className="font-semibold text-foreground mb-1">Email</h3>
                       <p className="text-muted-foreground">info@bullstechconsulting.com</p>
-                      <p className="text-muted-foreground">support@bullstechconsulting.com</p>
+                      <p className="text-muted-foreground">sales@bullstechconsulting.com</p>
                     </div>
                   </div>
                 </CardContent>
               </Card>
 
-              <Card className="border-blue-100">
+              {/* <Card className="border-blue-100">
                 <CardContent className="pt-6">
                   <div className="flex items-start space-x-4">
                     <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center flex-shrink-0">
@@ -1084,7 +1084,7 @@ export default function BullsTechConsulting() {
                     </div>
                   </div>
                 </CardContent>
-              </Card>
+              </Card> */}
 
               <div className="bg-blue-100 rounded-lg p-6">
                 <h3 className="font-semibold text-foreground mb-2">Business Hours</h3>
@@ -1104,30 +1104,19 @@ export default function BullsTechConsulting() {
         <div className="container mx-auto px-4 text-center">
           <div className="max-w-3xl mx-auto">
             <h2 className="text-3xl font-bold mb-4">Ready to Transform Your Business?</h2>
-            <p className="text-xl mb-8 text-blue-100 text-pretty">
+            <p className="text-xl mb-4 text-blue-100 text-pretty">
               Join hundreds of satisfied clients who have revolutionized their operations with our ICT solutions. Get
               started with a free consultation today.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button size="lg" variant="secondary" className="bg-white text-blue-600 hover:bg-blue-50">
-                Schedule Free Consultation
-              </Button>
-              <Button
-                size="lg"
-                variant="outline"
-                className="border-white/20 text-white hover:bg-white/10 bg-transparent"
-              >
-                Request Demo
-              </Button>
-            </div>
+           
           </div>
         </div>
       </section>
 
       {/* Footer */}
       <footer className="py-12 bg-foreground text-background">
-        <div className="container mx-auto px-4">
-          <div className="grid md:grid-cols-4 gap-8">
+        <div className="container  ">
+          {/* <div className="grid md:grid-cols-4 gap-8">
             <div>
               <div className="flex items-center space-x-2 mb-4">
                 <div className="w-8 h-8 bg-accent rounded-lg flex items-center justify-center">
@@ -1172,10 +1161,12 @@ export default function BullsTechConsulting() {
                 <li>Business District, City 12345</li>
               </ul>
             </div>
-          </div>
+          </div> */}
 
-          <div className="border-t border-background/20 mt-8 pt-8 text-center">
+          <div className=" text-center">
             <p className="text-background/80 text-sm">© 2024 Bulls Tech Consulting. All rights reserved.</p>
+            <br/>
+            <small>Made By <a href="https://aurorasystems.co.zw" target="_blank">Aurora</a></small>
           </div>
         </div>
       </footer>
